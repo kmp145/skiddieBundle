@@ -1,0 +1,17 @@
+main(){
+
+	get input for target IP//Could be from command line
+	get input for starting port and optionally ending port
+	create socket with all info other than port
+	//Possibly add some multithreading here
+	for (starting port to ending port){
+		socket.port = i
+		bind socket
+		try connect
+		if (connect)
+			print out message//maybe to text file
+		else
+			pass
+
+
+}
